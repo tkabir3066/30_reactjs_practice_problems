@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // Question: Build a timer that counts down from a specified time
 function Seven() {
-  const [time, setTime] = useState(60);
+  const [time, setTime] = useState(10);
 
   useEffect(() => {
     if (time > 0) {
@@ -12,6 +12,7 @@ function Seven() {
       return () => clearTimeout(timer);
     }
   }, [time]);
+
   return (
     <div>
       <p>

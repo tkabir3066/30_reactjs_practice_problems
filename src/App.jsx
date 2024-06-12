@@ -1,3 +1,4 @@
+import Eight from "./components/Eight";
 import Five from "./components/Five";
 import Four from "./components/Four";
 import One from "./components/One";
@@ -9,7 +10,7 @@ import Two from "./components/Two";
 function App() {
   return (
     <>
-      <Seven />
+      <Eight />
     </>
   );
 }
