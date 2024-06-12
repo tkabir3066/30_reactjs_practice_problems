@@ -6,7 +6,7 @@ function Eight() {
   const [input, setInput] = useState("");
   const [todos, setTodos] = useState([]);
 
-  const addTodo = () => {
+  const addTodo = (e) => {
     if (input.trim() !== "") {
       setTodos([...todos, input]);
       setInput("");
